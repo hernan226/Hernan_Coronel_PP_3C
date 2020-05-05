@@ -11,6 +11,8 @@ function ListarMaterias()
             . "\tNombre: " . $value['nombre'] . "\n"
             . "\tCuatrimestre: " . $value['cuatrimestre'] . "\n";
     }
+
+    echo $listado;
 }
 
 function ListarProfesores()
@@ -24,6 +26,7 @@ function ListarProfesores()
             . "\tNombre: " . $value['nombre'] . "\n"
             . "\tLegajo: " . $value['legajo'] . "\n";
     }
+    echo $listado;
 }
 
 function ListarAsignaciones()
@@ -45,4 +48,5 @@ function ListarAsignaciones()
             }
         }
     }
+    echo $listado;
 }
