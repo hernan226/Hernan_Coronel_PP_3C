@@ -1,0 +1,12 @@
+{
+    "name": "herna/parcial",
+    "authors": [
+        {
+            "name": "hernan226",
+            "email": "hernan226@outlook.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2"
+    }
+}
