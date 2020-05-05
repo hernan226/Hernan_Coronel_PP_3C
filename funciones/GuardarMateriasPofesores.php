@@ -8,7 +8,7 @@ function GuardarMateriasProfesores($legajo, $idMateria, $turno)
     $flag = true;
     if (
         strtolower($turno) == "mañana"
-        || strtolower($turno) == "noches"
+        || strtolower($turno) == "noche"
         || strtolower($turno) == "manana"
     ) {
 
